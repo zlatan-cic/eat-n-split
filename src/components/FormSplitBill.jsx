@@ -8,15 +8,17 @@ function FormSplitBill() {
 
       <label>💰 Bill Value</label>
       <input type="text" />
+
       <label>😅 Your expense</label>
       <input type="text" />
+
       <label>👬 X's expense</label>
-      <input type="text" disabled/>
+      <input type="text" disabled />
 
       <label>🤑 How is paying the bill</label>
       <select>
-        <option value='user'>You</option>
-        <option value='friend'>X</option>
+        <option value="user">You</option>
+        <option value="friend">X</option>
       </select>
 
       <Button>Split Bill</Button>
