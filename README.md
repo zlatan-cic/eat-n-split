@@ -1,4 +1,5 @@
-# Friends Management App
+# Ear nad Split
+## Friends Management App
 ## React + Vite
 
 This is a simple React application (for practice) for managing friends and splitting bills.
