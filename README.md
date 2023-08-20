@@ -1,8 +1,41 @@
-# React + Vite
+# Friends Management App
+## React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application (for practice) for managing friends and splitting bills.
 
-Currently, two official plugins are available:
+### Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Friends Management App allows you to manage a list of friends and split bills with them. It's a small project that demonstrates the use of React hooks and components to create a user-friendly interface.
+
+### Features
+
+- Display a list of friends with their names, images, and balances.
+- Add new friends to the list.
+- Select a friend to split bills with.
+- Split a bill and calculate expenses.
+- Handle positive and negative balances.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/tip-calculator-app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd friends-management-app
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+
+
+
+
+

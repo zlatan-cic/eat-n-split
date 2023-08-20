@@ -1,15 +1,17 @@
 import React from "react";
 import Button from "./Button";
 
-function Friend({ friend, children }) {
+function Friend({ friend, children, onSelection, selectedFriend }) {
+  const isSelected = selectedFriend && selectedFriend.id === friend.id;
+
   return (
-    <li>
+    <li className={isSelected ? "selected" : ""}>
       <img src={friend.image} alt={friend.name} />
       <h3>{friend.name}</h3>
 
       {friend.balance < 0 && (
         <p className="red">
-          You own {friend.name} {Math.abs(friend.balance)}€. 😑
+          You owe {friend.name} {Math.abs(friend.balance)}€. 😑
         </p>
       )}
       {friend.balance > 0 && (
@@ -23,8 +25,9 @@ function Friend({ friend, children }) {
         </p>
       )}
 
-      {/* <button className="button">Select</button> */}
-      <Button>Select</Button>
+      <Button onClick={() => onSelection(friend)}>
+        {isSelected ? "Close" : "Select"}
+      </Button>
     </li>
   );
 }
