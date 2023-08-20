@@ -1,4 +1,4 @@
-# Ear nad Split
+# Eat and Split
 ## Friends Management App
 ## React + Vite
 
